@@ -1,0 +1,30 @@
+.main {
+    margin-top: 15px;
+    background: transparent;
+    padding: 15px;
+    color: white;
+    justify-content: flex-end;
+}
+
+.navbar-brand, .nav-item, {
+    color:white;
+    background: transparent;
+}
+
+body { color:white;
+    font-family: 'Baloo Tamma', cursive;
+    background: #131313;
+    width:100%;
+}
+
+.pic {
+    max-height: 295px;
+    max-width: 395px;
+    padding: 25px;
+    border-radius: 50%;
+}
+
+.card {
+    background-color: orange;
+    margin: 30px;
+}
