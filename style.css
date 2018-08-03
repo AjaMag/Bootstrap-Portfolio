@@ -1,16 +1,23 @@
-.main {
+.main, row {
     margin-top: 15px;
     background: transparent;
     padding: 15px;
     color: white;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
 
-.navbar-brand, .nav-item, {
+.navbar-brand {
+    color:white;
+    background: transparent;
+}
+.nav-item a {
     color:white;
     background: transparent;
 }
 
+.dropdown .dropdown-item {
+    color: black;
+}
 body { color:white;
     font-family: 'Baloo Tamma', cursive;
     background: #131313;
@@ -20,11 +27,15 @@ body { color:white;
 .pic {
     max-height: 295px;
     max-width: 395px;
-    padding: 25px;
+    padding: 5px;
     border-radius: 50%;
 }
-
 .card {
     background-color: orange;
     margin: 30px;
+}
+
+.li {
+    font-size: 18px;
+    margin-top: 25px;
 }
