@@ -25,11 +25,19 @@ body { color:white;
 }
 
 .pic {
-    max-height: 295px;
-    max-width: 395px;
-    padding: 5px;
+    height: 225px;
+    width: 300px;
+    padding: 45px;
     border-radius: 50%;
 }
+
+.pic1 {
+    height: 270px;
+    width: 325px;
+    padding: 30px;
+    border-radius: 50%;
+}
+
 .card {
     background-color: orange;
     margin: 30px;
@@ -39,3 +47,35 @@ body { color:white;
     font-size: 18px;
     margin-top: 25px;
 }
+
+.footer {
+    margin: auto auto auto auto;
+    background-color: rgb(12, 12, 12);
+    position: fixed;
+    bottom: 0;
+    padding: 1px;
+    width: 100%;
+    text-align: center;
+    color:white;
+}
+
+
+
+/* Small devices (landscape phones, 34em and up) */
+@media (min-width: 34em) {     
+ }
+
+/* Medium devices (tablets, 48em and up) */
+@media (min-width: 48em) {  
+
+ }
+
+/* Large devices (desktops, 62em and up) */
+@media (min-width: 62em) { 
+
+ }
+
+/* Extra large devices (large desktops, 75em and up) */
+@media (min-width: 75em) { 
+
+ }
